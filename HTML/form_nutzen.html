@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Nutzen</title>
+</head>
+
+<body>
+    <h2>Form</h2>
+    <hr>
+    <!-- Veri giris alani icin kullaniyoruz-->
+    <p>
+        <label for="fname">First name:</label>
+        <input type="text" name="name"></p>
+
+    <p>
+        <label for="lname">Last name:</label>
+        <input type="text" surname="">
+    </p>
+
+    <p>Password : <input type="password" pass=""></p>
+    <p>Parolayi hatirla <input type="checkbox" passw=""></p>
+
+    <p>E-Mail   : <input type="text" name="email"></p>
+
+    <p>
+        Cinsiyet: 
+        Erkek <input type="radio" name="cinsiyet">
+        Kadin <input type="radio" name="cinsiyet">
+    </p>
+
+    <p>
+        Hobileriniz: <br>
+
+        Kitap Okumak: <input type="checkbox" name="hobi">
+        Resim Yapmak: <input type="checkbox" name="hobi">
+        Spor Yapmak : <input type="checkbox" name="hobi">
+    </p>
+
+    <!--  Alt dogru acilir secenek menüsü icin  -->
+    Dogum Yeri : 
+    <select name="Dogum Yeri" >
+        <option>Istanbul</option>
+        <option>Ankara</option>
+        <option>Izmir</option>
+    </select> <br><br><br>
+
+    Dogum Yeri : 
+    <select>
+        <option value="1">Istanbul</option>
+        <option value="2">Ankara</option>
+        <option value="3">Izmir</option>
+    </select>
+
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="---"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="---"><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form> <br><br><br>
+
+
+    <form>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+    </form><br><br>
+
+    <form>
+        <label for="quantity">Quantity (between 1 and 10):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="10">
+    </form>
+
+
+</body>
+
+</html>
