@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <style>
+        /* h1{
+            font-size: 40px;
+        }
+
+        @media screen and (max-width: 700px) {
+            h1 {
+                font-size: 30px;
+                color: blueviolet;
+            }   
+        }
+        @media screen and (max-width: 400px) {
+            h1 {
+                font-size: 15px;
+                color: lightgreen;
+            }   
+        } */
+
+        *{
+            box-sizing: border-box;
+        }
+
+        .box {
+
+            max-width: 25%;
+            background-color: lightskyblue;
+            float: left;
+            border: 1px solid black;
+        }
+
+        @media screen and (max-width: 700px ) {
+            .box{
+                width: 50%;
+            }
+        }
+        @media screen and (max-width: 400px ) {
+            .box{
+                width: 100%;
+            }
+        }
+        
+        img {
+            max-width: 100%;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box"> <img src="https://images.pexels.com/photos/15688135/pexels-photo-15688135/free-photo-of-birds-standing-on-rock.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        alt="Birds Standing on Rock
+    "> </div>
+    <div class="box"> <img src="https://images.pexels.com/photos/17328461/pexels-photo-17328461/free-photo-of-stairway-to-a-heavenly-view.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt=""> </div>
+    <div class="box"><img src="https://images.pexels.com/photos/15688135/pexels-photo-15688135/free-photo-of-birds-standing-on-rock.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        alt="Birds Standing on Rock
+    "> </div>
+    <div class="box"><img src="https://images.pexels.com/photos/17328461/pexels-photo-17328461/free-photo-of-stairway-to-a-heavenly-view.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt=""></div>
+    <div class="box"> <img src="https://images.pexels.com/photos/1763808/pexels-photo-1763808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt=""> </div>
+
+
+
+
+
+</body>
+</html>
