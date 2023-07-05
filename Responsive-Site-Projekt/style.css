@@ -8,6 +8,11 @@ html{
     font-size: 10px;
 }
 
+img{
+    width: 100%;
+    height: auto;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.6rem;
@@ -33,7 +38,7 @@ header {
 }
 
 header .bg-image{
-    background-image: url("https://images.pexels.com/photos/2017802/pexels-photo-2017802.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-image: url("https://images.pexels.com/photos/2373201/pexels-photo-2373201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
     background-size: cover;
     background-position:  center;
     height: 46rem;
@@ -68,3 +73,50 @@ header h1{
     padding: 1.6rem 3.2rem;
     margin: 0.5rem 0;
 }
+
+#section-a {
+    background-color: #eaeaea;
+    color: #333;
+    padding: 3.2rem 0;
+}
+
+#section-b {
+    padding: 2rem;
+}
+
+#section-b ul {
+    list-style: none;
+}
+
+#section-b li{
+    background-color: #fff;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+#section-c {
+    background-color: #eaeaea;
+    color: #333;
+    padding: 5rem;
+}
+
+#section-d .box{
+    padding: 5rem;
+
+}
+
+#section-d .box:first-child{
+    background-color: darkslategray;
+}
+
+.col-content{
+    padding: 1.5rem;
+}
+
+
+footer{
+    padding: 4rem;
+    background-color: black;
+}
+
+
