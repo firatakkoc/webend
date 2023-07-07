@@ -11,11 +11,13 @@ html {
 }
 
 nav {
+    width: 100%;
     font-family: Montserrat;
-    background-color: #384658;
+    background-color: #1f1b36;
     color: #fff;
     padding: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
+    position: fixed;
 }
 
 #logo-box {
@@ -31,8 +33,23 @@ body {
     background-color: #fff;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    font-family: Montserrat;
+
+}
+
 a{
     text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.img-fluid{
+    max-width: 256px;
+    height: auto;
 }
 
 .clearfix::after {
@@ -50,6 +67,8 @@ a{
     padding-right: 0.5rem;
 }
 
+
+
 .text-uppercase {
     text-transform: uppercase;
 }
@@ -58,7 +77,7 @@ a{
 #logo-box .logo {
     color: #fff;
     font-weight: 700;
-    font-size: 3.2rem;
+    font-size: 2.8rem;
 }
 
 
@@ -76,4 +95,53 @@ a{
     font-size: 1.6rem;
     font-weight: 700;
     display: block;
+    padding: 1.6rem;
+    letter-spacing: 0.1rem;
+    transition: color 0.4s;
+}
+
+#nav-links .nav-link:hover{
+    color: #1ABC9B;
+}
+
+header {
+    background-color: #8395f9;
+    height: 700px;
+    padding-top: calc(106px + 7rem);
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 4rem;
+}
+
+header h2 {
+    color: #fff;
+    font-size: 2.4rem;
+    font-family: "Lato";
+    font-weight: 300;
+}
+
+.star-light {
+    border: none;
+    border-top: 0.4rem solid #b8bdf2;
+    max-width: 25rem;
+    border-radius: 10px;
+    margin: 2.5rem auto;
+    overflow: visible;
+    height: 0;
+}
+
+
+.star-light::after {
+    content: "\2605";
+    color: #fff;
+    font-weight: 900;
+    font-size: 3.2rem;
+    position: relative;
+    top: -28px ;
+    overflow: visible;
+    background-color: #8395f9;
+    padding: 0 8px;
 }
