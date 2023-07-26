@@ -6,7 +6,7 @@
 
 /* Burada genel olarak uygulama icin .rem ule kullanilacak bir deger veriyoruz. Örnek 2rem x 10px = 20px elde ediyoruz */
 html {
-    
+
     font-size: 10px;
 }
 
@@ -34,17 +34,22 @@ body {
     background-color: #fff;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: 700;
     font-family: Montserrat;
 
 }
 
-p{
+p {
     font-family: Montserrat;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -52,12 +57,14 @@ ul {
     list-style-type: none;
 }
 
+.btn-large {
+    font-size: 2rem;
+    padding: 2.2rem 1.6rem;
 
+}
 
 .btn {
     margin-top: 2rem;
-    font-size: 2rem;
-
     font-weight: 400px;
     display: inline-block;
     border: 2px solid #fff;
@@ -66,20 +73,28 @@ ul {
     transition: all 0.4s;
 }
 
+.btn-social {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    line-height: 2rem;
+
+}
+
 .btn-outline {
     color: #fff;
     border-color: #fff;
     background-color: transparent;
-    padding: 2.2rem 1.6rem;
 }
 
 .btn-outline:hover {
     opacity: 0.7;
     background-color: #fff;
-    color:#1f1b36 ;
+    color: #1f1b36;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #8395f9;
     border-color: #1f1b36;
     padding: 1.2rem 1rem;
@@ -91,7 +106,7 @@ ul {
 }
 
 
-.img-fluid{
+.img-fluid {
     max-width: 256px;
     height: auto;
 }
@@ -103,8 +118,8 @@ ul {
 }
 
 
-.container{
-    width: 1140px;
+.container {
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding-left: 0.5rem;
@@ -144,7 +159,7 @@ ul {
     transition: color 0.4s;
 }
 
-#nav-links .nav-link:hover{
+#nav-links .nav-link:hover {
     color: #8395f9;
 }
 
@@ -175,7 +190,8 @@ hr.star-dark {
     border-color: #8395f9;
 }
 
-.star-light, .star-dark {
+.star-light,
+.star-dark {
     border: none;
     border-top: 0.4rem solid;
     max-width: 25rem;
@@ -186,13 +202,14 @@ hr.star-dark {
 }
 
 
-.star-light::after, .star-dark::after {
+.star-light::after,
+.star-dark::after {
     content: "\2605";
     color: #fff;
     font-weight: 900;
     font-size: 3.2rem;
     position: relative;
-    top: -28px ;
+    top: -28px;
     overflow: visible;
     background-color: #8395f9;
     padding: 0 8px;
@@ -217,17 +234,19 @@ hr.star-dark {
     font-size: 4.8rem;
     color: #8395f9;
 }
+
 .img-fluid-p {
     max-width: 100%;
     height: auto;
 
 
 }
+
 .col {
     float: left;
     width: 33.333%;
     padding: 10px;
-    
+
 }
 
 .portfolio-item {
@@ -240,7 +259,7 @@ hr.star-dark {
     border-radius: 20px;
 }
 
-.img-overlay{
+.img-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -249,9 +268,9 @@ hr.star-dark {
     background-color: #8395f9;
     opacity: 0;
     transition: opacity 0.4s;
-    border-radius: 20px; 
+    border-radius: 20px;
 
-    
+
 }
 
 .img-overlay .icon {
@@ -265,7 +284,7 @@ hr.star-dark {
 
 .portfolio-item:hover .img-overlay {
     opacity: 0.7;
-    border-radius: 20px; 
+    border-radius: 20px;
 }
 
 
@@ -304,3 +323,80 @@ hr.star-dark {
     font-size: 2rem;
 }
 
+#contact {
+    height: auto;
+    width: auto;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-align: center;
+    background-color: #fff;
+    color: #fff;
+}
+
+#contact h2 {
+    font-size: 4.8rem;
+    color: #8395f9;
+}
+
+#contact-form {
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-group {
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 3rem;
+    margin-bottom: 4rem;
+
+}
+
+.form-group input,
+.form-group textarea {
+    border: none;
+    width: 100%;
+    display: block;
+    font-size: 2.4rem;
+}
+
+.form-group input:focus {
+    outline: 0;
+}
+
+.form-group textarea:focus {
+    outline: 0;
+}
+
+
+
+footer {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: #1f1b36;
+    color: #fff;
+    text-align: center;
+}
+
+footer h4 {
+    font-size: 2.4rem;
+}
+
+footer p {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.copyright {
+    background-color: #8395f9;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+
+}
