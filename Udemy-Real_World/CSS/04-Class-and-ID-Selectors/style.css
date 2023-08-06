@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 26px;
+  color: crimson;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: greenyellow;
+}
+
+p {
+  font-size: 23px;
+  line-height: 1.5;
+}
+
+li {
+  font-size: 20px;
+}
